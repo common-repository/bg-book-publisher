@@ -1,0 +1,112 @@
+span.bg_bpub_book_author {
+	font-size:80%;
+	font-weight: normal;
+}
+
+.bg_bpub_toc{
+	flex-grow:1;
+	margin-bottom:1rem;
+}
+
+.bg_bpub_toc summary{
+	display:block;
+	text-align:center;
+}
+
+.bg_bpub_toc br{
+	display:none
+}
+
+.bg_bpub_toc li{
+	display:block;
+	position: relative;
+	padding-left:1rem;
+}
+.bg_bpub_toc a{
+	display:list-item;
+}
+
+.bg-bpub-list{
+	font-size: 1.5rem;
+	text-align:left;
+	list-style:none;
+	margin:0.5em 0 0.5em;
+}
+.main-page-content .bg-bpub-list{
+	padding-left:0;
+}
+
+.bg-bpub-list a{
+	display:block
+}
+.bg-bpub-list a.current{
+	font-weight:bold;
+	display:block;
+	background: #F7F4ED;
+}
+.bg-bpub-list a.current:after{
+	/*content:'\f060';
+	font-family:'FontAwesome';
+	*/
+	margin-left:.5em;
+	content:'📖';
+}
+
+.bg-bpub-list a:before{
+	content: '•';
+	display:inline-block;
+	position: absolute;
+    margin-left: -1.1rem;
+	text-decoration: none!important;
+	color:inherit!important;
+}
+.bg-bpub-list a.bg_bpub_toc_h2{
+	margin-left: 0em;
+}
+a.bg_bpub_toc_h2{
+	font-weight:bold;
+}
+a.bg_bpub_toc_h3:before{
+	content:'◦';
+}
+.bg-bpub-list a.bg_bpub_toc_h3{
+	margin-left: 1em;
+}
+.bg-bpub-list a.bg_bpub_toc_h4{
+	margin-left: 2em;
+}
+.bg-bpub-list a.bg_bpub_toc_h5{
+	margin-left: 3em;
+}
+.bg-bpub-list a.bg_bpub_toc_h6{
+	margin-left: 4em;
+}
+
+.bg-bpub-list .btn-full-text::marker{
+	content:none;
+	display:none;
+}
+.bg-bpub-list .btn-full-text{
+	list-style: none;
+	text-align:right;
+	padding:0;
+	margin:0;
+	font-size:1rem;
+}
+.bg-bpub-list .btn-full-text a:before{
+	content:none;
+	display:none;
+}
+
+.bg-bpub-list.grid{
+	display: flex;
+	flex-wrap: wrap;
+    gap: 1rem .25rem;
+}
+.bg-bpub-list.grid li{
+	min-width: 4em;
+}
+.bg-bpub-list.grid li.literal,
+.bg-bpub-list.grid:after{
+	width: 100%;
+}

@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bg Book Publisher\n"
+"POT-Creation-Date: 2017-11-04 05:42+0300\n"
+"PO-Revision-Date: 2023-06-01 09:56+0000\n"
+"Last-Translator: Vadim Bogaiskov <vadim.bogaiskov@gmail.com>\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: bg_bpub.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Settings field #1
+#: inc/options.php:49
+msgid "A post is book or not by default?"
+msgstr "Пост - книга или нет по умолчанию?"
+
+#. Option value of Settings field #1
+#: inc/options.php:107
+msgid "After title"
+msgstr "После заголовка"
+
+#. Option value of Settings field #1
+#: inc/options.php:106
+msgid "Before title"
+msgstr "До заголовка"
+
+#. Name of the plugin
+msgid "Bg Book Publisher"
+msgstr ""
+
+#. Label for input field  (in Metabox)
+#: bg_bpub.php:481
+msgid "Book author"
+msgstr "Автор книги"
+
+#. Meta box title
+#: bg_bpub.php:452 inc/options.php:13
+msgid "Book Publisher"
+msgstr "Публикация книг"
+
+#. Option page title
+#: inc/options.php:13
+msgid "Book Publisher options"
+msgstr "Настройки плагина \"Публикация книг\""
+
+#. Comment to settings field #1
+#: inc/options.php:70
+msgid "check if a post is book by default"
+msgstr "отметьте, если пост является книгой по умолчанию"
+
+#. Section title
+#: inc/options.php:45
+msgid "Default options"
+msgstr "Параметры по умолчанию"
+
+#. Option value of Settings field #1
+#: inc/options.php:108
+msgid "Don't show name of book author"
+msgstr "Не показывать имя автора книги"
+
+#. Сheckbox label (in Metabox)
+#: bg_bpub.php:493
+msgid "grid TOC"
+msgstr "Оглавление-таблица"
+
+#. Label for input field  (in Metabox)
+#. Settings field #2
+#: bg_bpub.php:471 inc/options.php:51
+msgid "Header level for page break tags"
+msgstr "Уровень заголовков для тегов разрыва страницы"
+
+#. Label for input field  (in Metabox)
+#. Settings field #3
+#: bg_bpub.php:476 inc/options.php:53
+msgid "Header level for table of contents"
+msgstr "Уровень заголовков для оглавления"
+
+#. Author URI of the plugin
+msgid "https://bogaiskov.ru"
+msgstr ""
+
+#. Settings field #6
+#: inc/options.php:59
+msgid "No page breaks if number of symbols is below this threshold"
+msgstr "Не разбивать на страницы если символов в записи меньше этого значения"
+
+#. Сheckbox label (in Metabox)
+#: bg_bpub.php:488
+msgid "open TOC"
+msgstr "Открыть оглавление"
+
+#. Settings field #7
+#: inc/options.php:61
+msgid "Open TOC by default if number of TOC items is below this threshold"
+msgstr ""
+"Количество пунктов оглавления до которого (включительно) оно раскрыто по "
+"умолчанию"
+
+#. Settings field #5
+#: inc/options.php:57
+msgid "Place where show name of book author"
+msgstr "Место где показывать имя автора книги"
+
+#: bg_bpub.php:408
+msgid "Table of contents"
+msgstr "Оглавление"
+
+#. Settings field #4
+#: inc/options.php:55
+msgid "Table of contents on each page"
+msgstr "Оглавление  на каждой странице"
+
+#. Description of the plugin
+msgid ""
+"The plugin helps you to publish big book with a detailed structure of "
+"chapters and sections and forms table of contents of the book."
+msgstr ""
+"Плагин помогает вам публиковать книги с развернутой структурой глав и "
+"разделов и формирует оглавление книги."
+
+#. Сheckbox label (in Metabox)
+#: bg_bpub.php:468
+msgid "this post is book"
+msgstr "этот пост - книга"
+
+#. Author of the plugin
+msgid "VBog (reworked by BZhuk)"
+msgstr ""
